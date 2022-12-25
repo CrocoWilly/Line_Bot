@@ -48,6 +48,7 @@
 
 #### 點選「風格指南」，穿搭怪客會傳送韓系髮型的風格指南
 輸入「back」，即可回到上一步驟的選單
+
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321296625_668680791393942_8687988580378992091_n.jpg?stp=dst-jpg_p403x403&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=BGJEpj6vaKwAX_lEHWD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTyitYV9w4U774bM12JSLNMqICCGe347BVEIa6lX3li7Q&oe=63CFFE62)
 
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321138690_681805050119097_7579985421238901207_n.jpg?stp=dst-jpg_s403x403&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=HmovdUB8CZ8AX8SmlQ6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQOSkQk_An9c13vez42LDNbgqEBneQulbygIHJVIhqwSg&oe=63D0023A)
@@ -55,6 +56,7 @@
 
 #### 點選「圖片範本」，穿搭怪客會傳送韓系髮型的圖片範本
 輸入「back」，即可回到上一步驟的選單
+
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321131448_944805940236330_8513661732241672807_n.jpg?stp=dst-jpg_s403x403&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=y7Q__jhnZCkAX-q_nev&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQckQ3YumXB6F23gQ65L5S1ILmzHjTFO5e8eOEqqAlgzw&oe=63CFF531)
 
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321072650_2123667767831526_3751787908296131311_n.jpg?stp=dst-jpg_p320x320&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=jx5kUF4jGeUAX_n4ZV6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQKhCg8_o80zU6OukZR-uyd82haoAAS9W4DUTIM6ta9FQ&oe=63CFFB96)
