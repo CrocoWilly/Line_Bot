@@ -1,5 +1,5 @@
 from transitions.extensions import GraphMachine
-from utils import send_text_message, send_button_message, send_image_message, send_image_carousel_message, send_confirm_message, send_carousel_message
+from utils import send_text_message, send_button_message, send_image_message, send_image_carousel_message
 import requests
 from linebot.models import MessageTemplateAction
 import pandas as pd
@@ -13,7 +13,6 @@ clothing_flag = False
 
 
 class TocMachine(GraphMachine):
-
 
     ###############           TRANSITION          ###############
 
