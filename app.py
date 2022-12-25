@@ -167,7 +167,8 @@ def webhook_handler():
         
         if response == True:
 
-            if machine.state == 'user':
+            # if machine.state == 'user':
+            if event.message.text == '回初始畫面':
                 text = '歡迎來到穿搭怪客的教室!\n\t輸入「fsm」: 查看有限狀態機設計圖\n\t輸入「help」: 教你如何使用穿搭怪客\n\t輸入「start」: 開始教學各類風格的髮型、穿搭，讓你一秒變成穿搭怪客!!!'
                 send_text_message(event.reply_token, text)
 
