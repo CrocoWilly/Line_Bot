@@ -43,12 +43,12 @@
 
 #### 點選「風格指南」，穿搭怪客會傳送韓系髮型的風格指南
 輸入「back」，即可回到上一步驟的選單
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/320795634_503672548412354_6242592745976314215_n.jpg?stp=dst-jpg_s640x640&_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Ccbi-DVPToMAX9bMKzl&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRpfMzFhBCJDF3ApTVIdRSIrA4PWpmhzcUiKlZRQU0Ggg&oe=63CFD05F)
+![](https://img.onl/UN8jk6)
 
 
 #### 點選「圖片範本」，穿搭怪客會傳送韓系髮型的圖片範本
 輸入「back」，即可回到上一步驟的選單
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321419921_1571046556652296_9128643180650123306_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Fxy9GMvlrBkAX8RJQAS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR5e59-XY4d96ogmOaExqMx8eLsPpdY8UQwixa4CmydxQ&oe=63CFB5D6)
+![](https://img.onl/qoV1tW)
 
 
 #### 點選「回主選單」，將會跳到"選擇風格的主選單"
