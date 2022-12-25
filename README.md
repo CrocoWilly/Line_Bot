@@ -72,7 +72,8 @@
 
 
 ## FSM圖
-![fsm](https://img.onl/VzTSfv)
+![](https://i.imgur.com/w89wgks.png)
+
 
 
 ### 設計想法
