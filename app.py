@@ -162,7 +162,7 @@ def webhook_handler():
             
             #如果輸入非"start"的指令會一直卡在 user state
             if machine.state == 'user':
-                text = '歡迎來到穿搭怪客的教室!\n\t輸入「fsm」: 查看有限狀態機設計圖\n\t輸入「help」: 教你如何使用穿搭怪客\n\t輸入「start」: 開始教學各類風格的髮型、穿搭，讓你一秒變成穿搭怪客!!!\n'
+                text = '歡迎來到穿搭怪客的教室!\n\t輸入「fsm」: 查看有限狀態機設計圖\n\t輸入「help」: 教你如何使用穿搭怪客\n\t輸入「start」: 開始教學各類風格的髮型、穿搭，讓你一秒變成穿搭怪客!!!'
                 send_text_message(event.reply_token, text)
             
 
