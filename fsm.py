@@ -140,7 +140,7 @@ class TocMachine(GraphMachine):
             url = 'https://www.xiziwang.net/uploads/allimg/200511/725_200511215049_1.jpg'
         elif(taiwan_flag == True):
             title = '8+9風'
-            url = 'https://imgur.dcard.tw/ELk4NObh.jpg'
+            url = 'https://i0.wp.com/imgur.dcard.tw/tKZeMy4.jpg'
         
         text = '選擇髮型或穿搭'
         option1 = MessageTemplateAction(label = '髮型', text = '髮型')
@@ -171,13 +171,13 @@ class TocMachine(GraphMachine):
                 title = '穿搭風格指南'
                 url = 'https://cdn2.ettoday.net/images/5843/5843121.jpg'
 
-        # elif(taiwan_flag == True):
-        #     if(hairstyle_flag == True):
-        #         title = '髮型風格指南'
-        #         url = ''
-        #     elif(clothing_flag == True):
-        #         title = '穿搭風格指南'
-        #         url = ''
+        elif(taiwan_flag == True):
+            if(hairstyle_flag == True):
+                title = '髮型風格指南'
+                url = 'https://obs.line-scdn.net/0h3CApm1MvbGx8CUbYtxsTO0ZfbwNPZX9vGD89bz9nMlgDbCloR2onWVBZM15WaysyEjokAlgJd10BOHxuFW0n/w644'
+            elif(clothing_flag == True):
+                title = '穿搭風格指南'
+                url = 'https://i.imgur.com/f9zLBNK.jpg'
 
 
         text = '選擇風格指南或圖片範本'
@@ -208,12 +208,13 @@ class TocMachine(GraphMachine):
                 text = '風格指南:\n\t一、上衣:\n\t\t1.寬版素色襯衫、針織衫、大學T、帽T\n\t\t2.機能外套\n\t\t3.針織背心\n\t二、褲子:\n\t\t1.八、九分不修身直筒寬褲\n\t\t2.寬版落地西裝褲或牛仔褲\n\t\t3.氣球褲\n\t三、穿搭通則:\n\t\t就是寬、就是素\n\n'
                 text += '--> 輸入「back」回到上一頁'
 
-        # elif(taiwan_flag == True):
-        #     if(hairstyle_flag == True):
-        #         url = 'https://asa-alliance.com/wp-content/uploads/2021/04/136384389_438813660635860_6639791291143614174_n-1-1024x1024.jpg'
-        #     elif(clothing_flag == True):
-        #         url = 'https://asa-alliance.com/wp-content/uploads/2021/04/136384389_438813660635860_6639791291143614174_n-1-1024x1024.jpg'
-        
+        elif(taiwan_flag == True):
+            if(hairstyle_flag == True):
+                text = '風格指南:\n\t一、流行的髮型:\n\t\t1.刷子頭\n\t\t2.蛋頭\n\t\t3.寸頭、平頭\n\t二、8+9髮型通則:\n\t\t1.髮型要分層，旁邊頭髮剃越光越台\n\t\t2.刷子頭瀏海一定要很齊\n\n'
+                text += '--> 輸入「back」回到上一頁'
+            elif(clothing_flag == True):
+                text = '風格指南:\n\t一、上衣:\n\t\t1.黑色有牌短T e.g.鬼洗、CK、EA7、GUCCI\n\t\t2.有龍、蛇圖案的襯衫或合身花襯衫\n\t\t3.吊嘎或直接不穿上衣，為了露半甲\n\t二、褲子:\n\t\t1.緊身牛仔褲(通常會配GUCCI皮帶)\n\t\t2.adidas三線褲\n\t\t3.其他有牌運動褲\n\t三、鞋子:\n\t\t1.假的Yeezy 350\n\t\t2.夜市買的懶人鞋、拖鞋\n\t\t3.跟風買的流行球鞋 e.g.Vans經典款\n\t四、穿搭通則:\n\t\t就是緊、就是要有牌(管他真還假)\n\n'
+                text += '--> 輸入「back」回到上一頁'
         
         send_text_message(event.reply_token, text)
 
@@ -268,12 +269,27 @@ class TocMachine(GraphMachine):
                 text = ["寬版襯衫 素T 寬褲", "寬版襯衫 寬落地西裝褲", "寬版素針織衫 九分直筒褲", "寬版落地牛仔褲", "針織背心 寬版襯衫 寬褲", "氣球褲"]
                 image_links = [url1, url2, url3, url4, url5, url6]
 
-        # elif(taiwan_flag == True):
-        #     if(hairstyle_flag == True):
-        #         url = 'https://asa-alliance.com/wp-content/uploads/2021/04/136384389_438813660635860_6639791291143614174_n-1-1024x1024.jpg'
-        #     elif(clothing_flag == True):
-        #         url = 'https://asa-alliance.com/wp-content/uploads/2021/04/136384389_438813660635860_6639791291143614174_n-1-1024x1024.jpg'
-        
+        elif(taiwan_flag == True):
+            if(hairstyle_flag == True):
+                url1 = 'https://scontent.ftpe7-1.fna.fbcdn.net/v/t39.30808-6/279952520_5682110305137019_1488794826106543562_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=maWfk2ZW5jkAX-RwDvK&_nc_ht=scontent.ftpe7-1.fna&oh=00_AfBFsB0apS3vqkJYTX4iYPaTpq7cVReAb6Q2zdW3-6V83w&oe=63ADEC54'
+                url2 = 'https://i.ytimg.com/vi/zqp0vvoU5Yk/maxresdefault.jpg'
+                url3 = 'https://cdn.style-map.com/post/photo/normal/516346.jpg'
+                
+                labels = ["刷子頭", "蛋頭", "寸頭"]
+                text = ["刷子頭", "蛋頭", "寸頭"]
+                image_links = [url1, url2, url3]
+            
+            elif(clothing_flag == True):
+                url1 = 'https://cf.shopee.tw/file/e9a8fd42c1f41184c5de82829c270293'
+                url2 = 'https://cf.shopee.tw/file/594a2f06669a05e1cad372d9c716be2c'
+                url3 = 'https://cf.shopee.tw/file/f951473b749ef376b43414c4b84880a7'
+                url4 = 'https://cf.shopee.tw/file/b6801ec8b14a46d78c95d0989f21b588'
+                url5 = 'https://plusheart.com.tw/wp-content/uploads/2019/03/zzzzzzzzzzzzzzzzzzzzzzzzzzz26-1.jpg'
+
+                labels = ["黑色有牌短T", "合身花襯衫", "三線褲 假350", "緊身牛仔褲", "GUCCI皮帶"]
+                text = ["黑色有牌短T", "合身花襯衫", "三線褲 假350", "緊身牛仔褲", "GUCCI皮帶"]
+                image_links = [url1, url2, url3, url4, url5]
+
 
         send_image_carousel_message(event.reply_token, labels, text, image_links)
         #self.go_back(event)
