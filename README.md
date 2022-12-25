@@ -20,7 +20,7 @@
 
 ### 輸入「start」，進入主選單
 輸入「start」後，進入正式髮型、穿搭教學。
-![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/321974801_852477449322151_7694244585537251425_n.jpg?stp=dst-jpg_s403x403&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=U8riDSzdDVQAX8vDZLg&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdTBLRJcOKQcUCCxqOR8OsGdLhr3ZqH-u-LcLYKER4yIeg&oe=63CFDB8E)
+![](https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/321240768_512731237327510_8412541516852500997_n.jpg?stp=dst-jpg_s403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=5vSt0hPPD_gAX8uu6Oh&_nc_ht=scontent.ftpe7-3.fna&oh=03_AdSRZI7meXPimbH78jadSb139pCAHZO5H_dYE8xpJl0JHg&oe=63CFED91)
 
 
 ### 共三個風格，以韓系風做舉例說明
@@ -52,7 +52,7 @@
 
 
 #### 點選「回主選單」，將會跳到"選擇風格的主選單"
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321370286_836285060980372_1054427346176690875_n.jpg?stp=dst-jpg_s403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=0he8qJokUP4AX9hq9dB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQ3-VW1fEDi6UpKbVnWSDSz4h_qR4bqqTLmJXDtcDMSPA&oe=63CFD99E)
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/320590943_487119076898480_7316519423663670528_n.jpg?stp=dst-jpg_s403x403&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=_RF6QHRZBbsAX_v0P8A&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQHXvWbxoVo90VBvQDd1k184i9oK1gC7S0nodgAL5RGvA&oe=63D00229)
 
 
 
@@ -62,7 +62,7 @@
 
 
 ## FSM圖
-![fsm](https://img.onl/J5Ftws)
+![fsm](https://img.onl/VzTSfv)
 
 
 ### 設計想法
@@ -89,6 +89,8 @@
         * Reply: "產生日系風的選單"
     * Input: "按選單中的按鈕「8+9風」"
         * Reply: "產生8+9風的選單"
+    * Input: "按選單中的按鈕「回初始畫面」"
+        * Reply: "產生初始畫面的訊息"
         
 * choose_type
     * Input: "按選單中的按鈕「髮型」"
@@ -96,7 +98,7 @@
     * Input: "按選單中的按鈕「穿搭」"
         * Reply: "產生「穿搭風格指南」選單"
         
-* teach_and_example
+* teach_or_example
     * Input: "按選單中的按鈕「風格指南」"
         * Reply: "產生該風格的教學指南"  e.g.韓系髮型教學指南
     * Input: "按選單中的按鈕「圖片範本」"

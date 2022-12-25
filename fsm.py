@@ -93,12 +93,17 @@ class TocMachine(GraphMachine):
             return True
         return False
 
+    def is_going_to_user(self, event):
+        text = event.message.text
+        if text == '回初始畫面':    # 在menu中點擊「回初始畫面」button
+            return True
+        return False
     
 
     
     ###############           STATE          ###############
     def on_enter_fsm(self, event):
-        url = 'https://img.onl/J5Ftws'
+        url = 'https://img.onl/VzTSfv'
         send_image_message(event.reply_token, url)
         self.go_back(event)
 
@@ -125,7 +130,8 @@ class TocMachine(GraphMachine):
         option1 = MessageTemplateAction(label = '韓系風', text = '韓系風')
         option2 = MessageTemplateAction(label = '日系風', text = '日系風')
         option3 = MessageTemplateAction(label = '8+9風', text = '8+9風')
-        buttons = [option1, option2, option3]
+        option4 = MessageTemplateAction(label = '回初始畫面', text = '回初始畫面')
+        buttons = [option1, option2, option3, option4]
         send_button_message(event.reply_token, title, text, buttons, url)
 
 
